@@ -1,0 +1,5460 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      CODEBOOK
+
+
+                General Social Survey, Cycle 27: Social Identity V2
+                                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2               Page i
+
+
+                                      CONTENTS
+
+
+      item                                                                page
+
+      CASEID                                                                 1
+      recid              Record identification                               1
+      agegr10            Age group of respondent (groups of 10)              1
+      sex                Sex of respondent                                   2
+      marstat            Marital status of respondent                        2
+      hsdsizec           Household size of respondent                        2
+      ageprgr0           Age group of respondent's spouse/partner (groups    3
+      ageprgrd           Age difference between respondent and spouse/par    3
+      agecrygc           Age of respondent's youngest single child in hou    4
+      agehsdyc           Age of youngest household member in respondent's    4
+      chinhsdc           Respondents child(ren) in household - Any age/    4
+      chh0014c           Child(ren) in household - 0 to 14 years             5
+      chrtime6           Age group of respondents single child(ren) in     5
+      parnum             Number of parents the respondent has in househol    5
+      livarr06           Living arrangement of respondent's household (6     6
+      multigen           Three generations or more in the respondents h    6
+      region             Region of residence of the respondent               7
+      prcode             Province of residence                               7
+      luc_rst            Population centres indicator                        8
+      ium_10             Internet use - Past month                           8
+      ism_10             Internet use - Past month - Electronic banking      8
+      ism_20             Internet use - Past month - Search - Goods and s    9
+      ism_30             Internet use - Past month - Purchase - Goods or     9
+      iuy_01             Internet use - 12 months                           10
+      icr_10             Internet use -12 months - Social networking webs   10
+      socnet             Social networking account                          10
+      icr_30             Social networking account - Frequency of access    11
+      scr_10             Respondent's relatives in same city or region      11
+      cwr_10             Contact with relatives - Past month - See          12
+      cwr_20             Contact with relatives - Past month - Telephone    12
+      cwr_25             Contact with relatives - Past month - Text         13
+      cwr_30             Contact with relatives - Past month - Email/Inte   13
+      cwr_40             Communication with relatives - Level of satisfac   14
+      cwr_45             Contact with relatives - Reason for dissatisfact   14
+      rfe_10c            Number of relatives  respondent feels close to     14
+      rfe_20c            Number of close relatives - Same city/community    15
+      rfe_25             Relative  respondent feels close to - Same city/   15
+      scf_100c           Number of close friends                            15
+      scf_101            Close friend - Same city/community                 16
+      scf_102c           Close friends - Same city/community                16
+      scf_110c           Number of other friends                            16
+      cwf_10             Other friend - Same city/community                 17
+      cwf_20c            Other friends - Same city/community                17
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page ii
+
+
+      item                                                                page
+
+      cwf_30             Contact with friends - Past month - See            17
+      clscongc           Number of local personal contacts - Relatives an   18
+      cwf_40             Contact with friends - Past month - Telephone      18
+      cwf_45             Contact with friends - Past month - Text           19
+      cwf_50             Contact with friends - Past month  - Email/Inter   19
+      cwf_60             Communication with friends - Level of satisfacti   20
+      cwf_65             Communication with friends - Reason for dissatis   20
+      scg_120            Contact with friends - Past month - Same mother    21
+      scg_130            Contact with friends - Past month - Different et   21
+      scg_150            Contact with friends - Past month - Same sex       22
+      scg_160            Contact with friends - Past month - Same age gro   22
+      scg_170            Contact with friends - Past month - Same educati   23
+      scg_180            Contact with friends - Past month - Different le   23
+      scg_190            Contact with friends - Past month - Similar hous   24
+      scg_200            Contact with friends - Past month - Different ho   24
+      scp_110            Number of new people met - Past month              24
+      scp_115            New person met on Internet - Past month            25
+      scp_120c           Number of new people met on Internet - Past mont   25
+      vcg_300            Volunteer work -12 months                          25
+      vcg_310            Volunteer work - Average number of hours per mon   26
+      vcg_320            Volunteer work - pat 12 months - Met new people    26
+      vcg_340            Donated money or goods - 12 months                 26
+      cer_110            Member or participant - 12 months - Union          27
+      cer_120            Member or participant - 12 months - Political pa   27
+      cer_140            Member or participant - 12 months - Sports/recre   27
+      cer_150            Member or participant - 12 months - Cultural/edu   28
+      cer_160            Member or participant - 12 months - Religious gr   28
+      cer_170            Member or participant - 12 months - School/commu   28
+      cer_180            Member or participant - 12 months - Service club   29
+      cer_190            Member or participant - 12 months - Seniors' gro   29
+      cer_200            Member or participant - 12 months - Youth organi   29
+      cer_210            Member or participant - 12 months - Immigrant/et   30
+      cer_230            Member or participant - 12 months - Other type o   30
+      cerd230c           Number of organization types - 12 months           30
+      vbr_10             Last federal election - Voted                      31
+      vbr_15             Last federal election - Eligibility                31
+      vbr_20             Last federal election -  Main reason did not vot   32
+      vbr_25             Federal election - Vote in next election           32
+      vbr_30             Last provincial election - Voted                   33
+      vbr_35             Last provincial Election - Eligibility             33
+      vbr_40             Last municipal election - Voted                    33
+      vbr_45             Last municipal election - Eligibility              34
+      rep_05             Interest in politics                               34
+      rep_10             Political activity - 12 months - Searched for in   34
+      rep_20             Political activity - 12 months - Volunteered for   35
+      rep_30             Political activity - 12 months - Expressed views   35
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2             Page iii
+
+
+      item                                                                page
+
+      rep_35             Political activity - 12 months - Expressed views   35
+      rep_40             Political activity - 12 months - Signed paper pe   36
+      rep_45             Political activity - 12 months - Signed Internet   36
+      rep_50             Political activity - 12 months - Product choice    36
+      rep_60             Political activity - 12 months - Attended public   37
+      rep_70             Political activity - 12 months - Spoke at public   37
+      rep_80             Political activity - 12 months - Participated in   37
+      rep_85             Political activity - 12 months - Visible sign of   38
+      mcr_300c           Number of hours per week spent watching televisi   38
+      mcr_310            Frequency of following news and current affairs    38
+      mcr_320a           Media to follow news and current affairs - Newsp   39
+      mcr_320b           Media to follow news and current affairs - Magaz   39
+      mcr_320c           Media to follow news and current affairs - Telev   39
+      mcr_320d           Media to follow news and current affairs - Radio   40
+      mcr_320e           Media to follow news and current affairs - Inter   40
+      mcr_320f           Media to follow news and current affairs - None    40
+      mcr_320g           Media to follow news and current affairs - Other   41
+      mcr_325c           Number of hours per week following news/current    41
+      mcr_330c           News and current affairs - Hours per week -  Rad   41
+      mcr_335c           News and current affairs - Hours per week - Inte   42
+      mcr_340            News and current affairs -   Typical week - News   42
+      mcr_350            News and current affairs -   Typical month - Mag   42
+      mcr_360            Use of ethnic medias to follow news - Typical we   43
+      mcr_365a           Ethnic media use - Newspapers (print copy)         43
+      mcr_365b           Ethnic media use - Magazines (print copy)          43
+      mcr_365c           Ethnic media use - Television                      44
+      mcr_365d           Ethnic media use - Radio                           44
+      mcr_365e           Ethnic media use - Internet                        44
+      mcr_365f           Ethnic media use - Other specify                   45
+      kch_10             Knowledge of Canadian history                      45
+      prd_10             Pride - Being Canadian                             46
+      prd_20             Pride - Canada - Democracy                         46
+      prd_25             Pride - Canada - Global political influence        47
+      prd_30             Pride - Canada - Economic achievements             47
+      prd_35             Pride - Canada - Health care system                48
+      prd_37             Pride - Canada - Social security system            48
+      prd_40             Pride - Canada -  Scientific and technological a   49
+      prd_45             Pride - Canada - Achievements in sports            49
+      prd_50             Pride - Canada - Arts and literature               50
+      prd_55             Pride - Canada - Armed forces                      50
+      prd_60             Pride - Canada - History                           51
+      prd_65             Pride - Canada - Treatment of all groups in soci   51
+      prd_70             Pride - Canada - Constitution                      52
+      ans_10             Importance of national symbols - Canadian flag     52
+      ans_30             Importance of national symbols - Charter of Righ   53
+      ans_50             Importance of national symbols - National anthem   53
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page iv
+
+
+      item                                                                page
+
+      ans_60             Importance of national symbols - RCMP              54
+      ans_80             Importance of national symbols - Hockey            54
+      ans_90a            National symbols - People and identities           54
+      ans_90b            National symbols - Beaver                          55
+      ans_90c            National symbols - Nature, geography, outdoors     55
+      ans_90d            National symbols - Maple leaf                      55
+      ans_90e            National symbols - Wildlife (excluding beavers)    56
+      ans_90f            National symbols - Canadian heritage and history   56
+      ans_90g            National symbols - Sports and leisure              56
+      ans_90h            National symbols - Multiculturalism                57
+      ans_90i            National symbols - Food and beverage               57
+      ans_90j            National symbols - Mountains                       57
+      ans_90k            National symbols - Physical places/locations in    58
+      ans_90l            National symbols - Business, technology and econ   58
+      ans_90m            National symbols - Water                           58
+      ans_90n            National symbols - Winter                          59
+      ans_90o            National symbols - Official Canadian symbols       59
+      ans_90p            National symbols - Politics, politicians, progra   59
+      ans_90q            National symbols - Vastness/size of Canada         60
+      ans_90r            National symbols - Aboriginal peoples and cultur   60
+      ans_90s            National symbols - Wars, peacekeeping and vetera   60
+      ans_90t            National symbols - Currency                        61
+      ans_90u            National symbols - Other                           61
+      svr_10             Canadian shared values - Human rights              61
+      svr_25             Canadian shared values - Respect for the law       62
+      svr_30             Canadian shared values - Gender equality           62
+      svr_35             Canadian shared values - Official languages        63
+      svr_40             Canadian shared values - Ethnic and cultural div   63
+      svr_45             Canadian shared values - Respect for Aboriginal    64
+      ethpr7             Ethnic background of the respondent's partner (7   64
+      vismin             Visible minority status of the respondent.         65
+      visminpr           Visible minority status - Respondent's spouse/pa   65
+      sbl_100            Sense of belonging - Local community               65
+      sbl_200            Sense of belonging - Town or city                  66
+      sbl_300            Sense of belonging - Province                      66
+      sbl_500            Sense of belonging - Canada                        67
+      sbl_700            Sense of belonging - Country of origin             67
+      sbl_800            Sense of belonging - People with same ethnic/cul   68
+      sbl_820            Sense of belonging - People with same first lang   68
+      pct_10             Trust people in general                            69
+      tip_10             Trust - Members of family                          69
+      tip_15             Trust - People in neighbourhood                    70
+      tip_20             Trust - People from work or school                 70
+      tip_22             Trust - People who speak a different language      71
+      tip_25             Trust - Strangers                                  71
+      tnp_10             Trust - Neighbourhood people                       72
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2               Page v
+
+
+      item                                                                page
+
+      rlm_10             Perceived likelihood - Return of lost wallet - B   72
+      rlm_15             Perceived likelihood - Return of lost wallet - B   72
+      rlm_20             Perceived likelihood - Return of lost wallet - B   73
+      dis_10             Experienced discrimination - Sex                   73
+      dis_15             Experienced discrimination - Ethnicity or cultur   73
+      dis_20             Experienced discrimination - Race or skin colour   74
+      dis_25             Experienced discrimination - Physical appearance   74
+      dis_30             Experienced discrimination - Religion              74
+      dis_35             Experienced discrimination - Sexual orientation    75
+      dis_40             Experienced discrimination - Age                   75
+      dis_45             Experienced discrimination - Physical or mental    75
+      dis_50             Experienced discrimination - Language              76
+      dis_55             Experienced discrimination - Other                 76
+      discrim            Victim of discrimination - 5 years                 76
+      dts_20             Experienced discrimination - Bank, store, restau   77
+      dts_25             Experienced discrimination - Work environment      77
+      dts_30             Experienced discrimination - Police                77
+      dts_35             Experienced discrimination - Courts                78
+      dts_60             Experienced discrimination - Canadian border       78
+      dts_65             Experienced discrimination -  Other                78
+      cii_10             Confidence - Police                                79
+      cii_15             Confidence - Justice system and courts             79
+      cii_30             Confidence - School system                         80
+      cii_40             Confidence - Federal Parliament                    80
+      cii_45             Confidence - Banks                                 81
+      cii_50             Confidence - Major corporations                    81
+      cii_55             Confidence - Local merchants and business people   82
+      cii_60             Confidence - Canadian media                        82
+      srh_110            Self-rated general health                          83
+      srh_115            Self-rated mental health                           83
+      slm_01             Subjective well-being                              84
+      lanch              First childhood language of the respondent         84
+      lanhsdc            Respondent's household language.                   85
+      incm               Annual personal income of the respondent - 2012    85
+      incmhsd            Total household income - 2012                      86
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2               Page 1
+
+
+      CASEID
+
+           Data type: numeric
+           Record/columns: 1/1-5
+
+      ________________________________________________________________________
+
+      recid              Record identification
+
+           VALUE  LABEL
+           99996  Valid skip
+           99997  Don't know
+           99998  Refusal
+           99999  Not stated
+
+           Data type: numeric
+           Missing-data codes: 99996-99999
+           Record/columns: 1/6-10
+
+      ________________________________________________________________________
+
+      agegr10            Age group of respondent (groups of 10)
+
+           VALUE  LABEL
+               1  15 to 24 years
+               2  25 to 34 years
+               3  35 to 44 years
+               4  45 to 54 years
+               5  55 to 64 years
+               6  65 to 74 years
+               7  75 years and over
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/column: 1/11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2               Page 2
+
+
+      sex                Sex of respondent
+
+           VALUE  LABEL
+               1  Male
+               2  Female
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/12
+
+      ________________________________________________________________________
+
+      marstat            Marital status of respondent
+
+           VALUE  LABEL
+               1  Married
+               2  Living common-law
+               3  Widowed
+               4  Seperated
+               5  Divorced
+               6  Single, never married
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/13-14
+
+      ________________________________________________________________________
+
+      hsdsizec           Household size of respondent
+
+           VALUE  LABEL
+               6  6 or more
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/column: 1/15
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2               Page 3
+
+
+      ageprgr0           Age group of respondent's spouse/partner (groups of 10)
+
+           VALUE  LABEL
+               1  15 to 24 years
+               2  25 to 34 years
+               3  35 to 44 years
+               4  45 to 54 years
+               5  55 to 64 years
+               6  65 to 74 years
+               7  75 years and over
+              95  No spouse/partner in the household
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/16-17
+
+      ________________________________________________________________________
+
+      ageprgrd           Age difference between respondent and spouse/partner
+
+           VALUE  LABEL
+               1  Respondent 11 + years older
+               2  Respondent is 6 to 10 years older
+               3  Respondent is 5 years older
+               4  Respondent is 4 years older
+               5  Respondent is 3 years older
+               6  Respondent is 2 years older
+               7  Respondent is 1 year older
+               8  Respondent and spouse/partner are the same age
+               9  Respondent is 1 year younger
+              10  Respondent is 2 years younger
+              11  Respondent is 3 years younger
+              12  Respondent is 4 years younger
+              13  Respondent is 5 years younger
+              14  Respondent is 6 to 10 years younger
+              15  Respondent is 11+ years younger
+              95  No spouse/partner in the household
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/18-19
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2               Page 4
+
+
+      agecrygc           Age of respondent's youngest single child in household
+
+           VALUE  LABEL
+               1  0 to 4
+               2  5 to 8
+               3  9 to 11
+               4  12 to 14
+               5  15 to 17
+               6  18 to 21
+               7  22 to 24
+               8  25 years and over
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/20-21
+
+      ________________________________________________________________________
+
+      agehsdyc           Age of youngest household member in respondent's household
+
+           VALUE  LABEL
+              85  85 years and over
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/22-23
+
+      ________________________________________________________________________
+
+      chinhsdc           Respondents child(ren) in household - Any age/marital status
+
+           VALUE  LABEL
+               0  None
+               4  4 or more
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/24
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2               Page 5
+
+
+      chh0014c           Child(ren) in household - 0 to 14 years
+
+           VALUE  LABEL
+               3  3 or more children
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/25
+
+      ________________________________________________________________________
+
+      chrtime6           Age group of respondents single child(ren) in household
+
+           VALUE  LABEL
+               1  No child under 19 years of age at home
+               2  All children under 5 years of age
+               3  All children between 5 and 12 years of age
+               4  All children 13 years of age or older
+               5  At least one child under 5 years but not all children
+               6  Other
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/column: 1/26
+
+      ________________________________________________________________________
+
+      parnum             Number of parents the respondent has in household
+
+           VALUE  LABEL
+               0  None
+               1  One parent
+               2  Two parents
+               3  Three parents
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/27
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2               Page 6
+
+
+      livarr06           Living arrangement of respondent's household (6 categories)
+
+           VALUE  LABEL
+               1  Alone
+               2  Spouse only
+               3  Spouse and single/non-single child(ren)
+               4  Single/non-single child(ren) only
+               5  Living with one or two parents
+               6  Other living arrangement
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/column: 1/28
+
+      ________________________________________________________________________
+
+      multigen           Three generations or more in the respondents household
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/29
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2               Page 7
+
+
+      region             Region of residence of the respondent
+
+           VALUE  LABEL
+               1  Atlantic region
+               2  Quebec
+               3  Ontario
+               4  Prairie region
+               5  British Columbia
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/30
+
+      ________________________________________________________________________
+
+      prcode             Province of residence
+
+           VALUE  LABEL
+              10  Newfoundland and Labrador
+              11  Prince Edward Island
+              12  Nova Scotia
+              13  New Brunswick
+              24  Quebec
+              35  Ontario
+              46  Manitoba
+              47  Saskatchewan
+              48  Alberta
+              59  British Columbia
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/31-32
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2               Page 8
+
+
+      luc_rst            Population centres indicator
+
+           VALUE  LABEL
+               1  Larger urban population centres (CMA/CA)
+               2  Rural areas/small population centres (non-CMA/CA)
+               3  Prince Edward Island
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/33
+
+      ________________________________________________________________________
+
+      ium_10             Internet use - Past month
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/34
+
+      ________________________________________________________________________
+
+      ism_10             Internet use - Past month - Electronic banking
+
+           VALUE  LABEL
+               1  At least once a day
+               2  At least once a week (but not every day)
+               3  At least once a month (but not every week)
+               4  Not in the past month
+               5  Never
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/35
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2               Page 9
+
+
+      ism_20             Internet use - Past month - Search - Goods and services
+
+           VALUE  LABEL
+               1  At least once a day
+               2  At least once a week (but not every day)
+               3  At least once a month (but not every week)
+               4  Not in the past month
+               5  Never
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/36
+
+      ________________________________________________________________________
+
+      ism_30             Internet use - Past month - Purchase - Goods or services
+
+           VALUE  LABEL
+               1  At least once a day
+               2  At least once a week (but not every day)
+               3  At least once a month (but not every week)
+               4  Not in the past month
+               5  Never
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/37
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 10
+
+
+      iuy_01             Internet use - 12 months
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/38
+
+      ________________________________________________________________________
+
+      icr_10             Internet use -12 months - Social networking website
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/39
+
+      ________________________________________________________________________
+
+      socnet             Social networking account
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/40
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 11
+
+
+      icr_30             Social networking account - Frequency of access
+
+           VALUE  LABEL
+               1  Several times a day
+               2  About once a day
+               3  3-5 times a week
+               4  1-2 times a week
+               5  A few times per month
+               6  Less than once a month
+               7  Never
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/41-42
+
+      ________________________________________________________________________
+
+      scr_10             Respondent's relatives in same city or region
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  No living relatives
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/43
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 12
+
+
+      cwr_10             Contact with relatives - Past month - See
+
+           VALUE  LABEL
+               1  Every day
+               2  A few times a week
+               3  Once a week
+               4  2 or 3 times a month
+               5  Once a month
+               6  Not in the past month
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/44-45
+
+      ________________________________________________________________________
+
+      cwr_20             Contact with relatives - Past month - Telephone
+
+           VALUE  LABEL
+               1  Every day
+               2  A few times a week
+               3  Once a week
+               4  2 or 3 times a month
+               5  Once a month
+               6  Not in the past month
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/46-47
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 13
+
+
+      cwr_25             Contact with relatives - Past month - Text
+
+           VALUE  LABEL
+               1  Every day
+               2  A few times a week
+               3  Once a week
+               4  2 or 3 times a month
+               5  Once a month
+               6  Not in the past month
+               7  No cell/mobile device or does not text
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/48-49
+
+      ________________________________________________________________________
+
+      cwr_30             Contact with relatives - Past month - Email/Internet
+
+           VALUE  LABEL
+               1  Every day
+               2  A few times a week
+               3  Once a week
+               4  2 or 3 times a month
+               5  Once a month
+               6  Not in the past month
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/50-51
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 14
+
+
+      cwr_40             Communication with relatives - Level of satisfaction
+
+           VALUE  LABEL
+               1  Very satisfied
+               2  Satisfied
+               3  Neither satisfied nor dissatisfied
+               4  Dissatisfied
+               5  Very dissatisfied
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/52
+
+      ________________________________________________________________________
+
+      cwr_45             Contact with relatives - Reason for dissatisfaction
+
+           VALUE  LABEL
+               1  Too often
+               2  Not often enough
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/53
+
+      ________________________________________________________________________
+
+      rfe_10c            Number of relatives  respondent feels close to
+
+           VALUE  LABEL
+             200  200 or more
+             996  Valid skip
+             997  Don't know
+             998  Refusal
+             999  Not stated
+
+           Data type: numeric
+           Missing-data codes: 996-999
+           Record/columns: 1/54-56
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 15
+
+
+      rfe_20c            Number of close relatives - Same city/community
+
+           VALUE  LABEL
+             200  200 or more
+             996  Valid skip
+             997  Don't know
+             998  Refusal
+             999  Not stated
+
+           Data type: numeric
+           Missing-data codes: 996-999
+           Record/columns: 1/57-59
+
+      ________________________________________________________________________
+
+      rfe_25             Relative  respondent feels close to - Same city/community
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/60
+
+      ________________________________________________________________________
+
+      scf_100c           Number of close friends
+
+           VALUE  LABEL
+             200  200 or more
+             996  Valid skip
+             997  Don't know
+             998  Refusal
+             999  Not stated
+
+           Data type: numeric
+           Missing-data codes: 996-999
+           Record/columns: 1/61-63
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 16
+
+
+      scf_101            Close friend - Same city/community
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/64
+
+      ________________________________________________________________________
+
+      scf_102c           Close friends - Same city/community
+
+           VALUE  LABEL
+             200  200 or more
+             996  Valid skip
+             997  Don't know
+             998  Refusal
+             999  Not stated
+
+           Data type: numeric
+           Missing-data codes: 996-999
+           Record/columns: 1/65-67
+
+      ________________________________________________________________________
+
+      scf_110c           Number of other friends
+
+           VALUE  LABEL
+             200  200 or more
+             996  Valid skip
+             997  Don't know
+             998  Refusal
+             999  Not stated
+
+           Data type: numeric
+           Missing-data codes: 996-999
+           Record/columns: 1/68-70
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 17
+
+
+      cwf_10             Other friend - Same city/community
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/71
+
+      ________________________________________________________________________
+
+      cwf_20c            Other friends - Same city/community
+
+           VALUE  LABEL
+             200  200 or more
+             996  Valid skip
+             997  Don't know
+             998  Refusal
+             999  Not stated
+
+           Data type: numeric
+           Missing-data codes: 996-999
+           Record/columns: 1/72-74
+
+      ________________________________________________________________________
+
+      cwf_30             Contact with friends - Past month - See
+
+           VALUE  LABEL
+               1  Every day
+               2  A few times a week
+               3  Once a week
+               4  2 or 3 times a month
+               5  Once a month
+               6  Not in the past month
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/75-76
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 18
+
+
+      clscongc           Number of local personal contacts - Relatives and friends
+
+           VALUE  LABEL
+               1  Less than 5 personal contacts
+               2  5 to 9 personal contacts
+               3  10 to 14 personal contacts
+               4  15 to 24 personal contacts
+               5  25 to 49 personal contacts
+               6  50 to 74 personal contacts
+               7  75 or more personal contacts
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/77-78
+
+      ________________________________________________________________________
+
+      cwf_40             Contact with friends - Past month - Telephone
+
+           VALUE  LABEL
+               1  Every day
+               2  A few times a week
+               3  Once a week
+               4  2 or 3 times a month
+               5  Once a month
+               6  Not in the past month
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/79-80
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 19
+
+
+      cwf_45             Contact with friends - Past month - Text
+
+           VALUE  LABEL
+               1  Every day
+               2  A few times a week
+               3  Once a week
+               4  2 or 3 times a month
+               5  Once a month
+               6  Not in the past month
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/81-82
+
+      ________________________________________________________________________
+
+      cwf_50             Contact with friends - Past month  - Email/Internet
+
+           VALUE  LABEL
+               1  Every day
+               2  A few times a week
+               3  Once a week
+               4  2 or 3 times a month
+               5  Once a month
+               6  Not in the past month
+               7  Did not use email in the past month
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/83-84
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 20
+
+
+      cwf_60             Communication with friends - Level of satisfaction
+
+           VALUE  LABEL
+               1  Very satisfied
+               2  Satisfied
+               3  Neither satisfied nor dissatisfied
+               4  Dissatisfied
+               5  Very dissatisfied
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/85
+
+      ________________________________________________________________________
+
+      cwf_65             Communication with friends - Reason for dissatisfaction
+
+           VALUE  LABEL
+               1  Too often
+               2  Not often enough
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/86
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 21
+
+
+      scg_120            Contact with friends - Past month - Same mother tongue
+
+           VALUE  LABEL
+               1  All
+               2  Most
+               3  About half
+               4  A few
+               5  None
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/87
+
+      ________________________________________________________________________
+
+      scg_130            Contact with friends - Past month - Different ethnic group
+
+           VALUE  LABEL
+               1  All
+               2  Most
+               3  About half
+               4  A few
+               5  None
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/88
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 22
+
+
+      scg_150            Contact with friends - Past month - Same sex
+
+           VALUE  LABEL
+               1  All
+               2  Most
+               3  About half
+               4  A few
+               5  None
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/89
+
+      ________________________________________________________________________
+
+      scg_160            Contact with friends - Past month - Same age group
+
+           VALUE  LABEL
+               1  All
+               2  Most
+               3  About half
+               4  A few
+               5  None
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/90
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 23
+
+
+      scg_170            Contact with friends - Past month - Same education level
+
+           VALUE  LABEL
+               1  All
+               2  Most
+               3  About half
+               4  A few
+               5  None
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/91
+
+      ________________________________________________________________________
+
+      scg_180            Contact with friends - Past month - Different level of education
+
+           VALUE  LABEL
+               1  A higher education
+               2  A lower education
+               3  About half and half
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/92
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 24
+
+
+      scg_190            Contact with friends - Past month - Similar household income
+
+           VALUE  LABEL
+               1  All
+               2  Most
+               3  About half
+               4  A few
+               5  None
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/93
+
+      ________________________________________________________________________
+
+      scg_200            Contact with friends - Past month - Different household income
+
+           VALUE  LABEL
+               1  A higher household income
+               2  A lower household income
+               3  About half and half
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/94
+
+      ________________________________________________________________________
+
+      scp_110            Number of new people met - Past month
+
+           VALUE  LABEL
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/95-96
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 25
+
+
+      scp_115            New person met on Internet - Past month
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/97
+
+      ________________________________________________________________________
+
+      scp_120c           Number of new people met on Internet - Past month
+
+           VALUE  LABEL
+               5  5 or more
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/98
+
+      ________________________________________________________________________
+
+      vcg_300            Volunteer work -12 months
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/99
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 26
+
+
+      vcg_310            Volunteer work - Average number of hours per month
+
+           VALUE  LABEL
+               1  15 hours or more per month
+               2  Between 5 and less than 15 hours per month
+               3  Between 1 and less than 5 hours per month
+               4  Less than 1 hour per month
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/100
+
+      ________________________________________________________________________
+
+      vcg_320            Volunteer work - pat 12 months - Met new people
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/101
+
+      ________________________________________________________________________
+
+      vcg_340            Donated money or goods - 12 months
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/102
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 27
+
+
+      cer_110            Member or participant - 12 months - Union
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/103
+
+      ________________________________________________________________________
+
+      cer_120            Member or participant - 12 months - Political party/group
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/104
+
+      ________________________________________________________________________
+
+      cer_140            Member or participant - 12 months - Sports/recreational org.
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/105
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 28
+
+
+      cer_150            Member or participant - 12 months - Cultural/educational group
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/106
+
+      ________________________________________________________________________
+
+      cer_160            Member or participant - 12 months - Religious group
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/107
+
+      ________________________________________________________________________
+
+      cer_170            Member or participant - 12 months - School/community group
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/108
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 29
+
+
+      cer_180            Member or participant - 12 months - Service club
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/109
+
+      ________________________________________________________________________
+
+      cer_190            Member or participant - 12 months - Seniors' group
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/110
+
+      ________________________________________________________________________
+
+      cer_200            Member or participant - 12 months - Youth organization
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/111
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 30
+
+
+      cer_210            Member or participant - 12 months - Immigrant/ethnic association
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/112
+
+      ________________________________________________________________________
+
+      cer_230            Member or participant - 12 months - Other type of organization
+
+           VALUE  LABEL
+               1  Yes - Specify
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/113
+
+      ________________________________________________________________________
+
+      cerd230c           Number of organization types - 12 months
+
+           VALUE  LABEL
+               0  None
+               5  5 or more
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/114
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 31
+
+
+      vbr_10             Last federal election - Voted
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/115
+
+      ________________________________________________________________________
+
+      vbr_15             Last federal election - Eligibility
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/116
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 32
+
+
+      vbr_20             Last federal election -  Main reason did not vote
+
+           VALUE  LABEL
+               1  Own illness or disability
+               2  Out of town or away from home
+               3  Too busy
+               4  Family obligations
+               5  Conflicting work or school schedule
+               6  Weather conditions
+               7  Not interested
+               8  Felt voting would not make a difference in results
+               9  Didn't like candidates or campaign issues
+              10  Not on voters list/problems with ID requirements
+              11  Too difficult/transportation problems/too far to travel
+              12  Forgot to vote
+              13  Religious beliefs
+              14  Not informed on issues
+              15  Undecided
+              16  Did not vote to protest
+              17  Other - Specify
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/117-118
+
+      ________________________________________________________________________
+
+      vbr_25             Federal election - Vote in next election
+
+           VALUE  LABEL
+               1  Very likely
+               2  Somewhat likely
+               3  Not very likely
+               4  Not at all likely
+               5  Undecided
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/119
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 33
+
+
+      vbr_30             Last provincial election - Voted
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/120
+
+      ________________________________________________________________________
+
+      vbr_35             Last provincial Election - Eligibility
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/121
+
+      ________________________________________________________________________
+
+      vbr_40             Last municipal election - Voted
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/122
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 34
+
+
+      vbr_45             Last municipal election - Eligibility
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/123
+
+      ________________________________________________________________________
+
+      rep_05             Interest in politics
+
+           VALUE  LABEL
+               1  Very interested
+               2  Somewhat interested
+               3  Not very interested
+               4  Not at all interested
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/124
+
+      ________________________________________________________________________
+
+      rep_10             Political activity - 12 months - Searched for information
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/125
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 35
+
+
+      rep_20             Political activity - 12 months - Volunteered for political party
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/126
+
+      ________________________________________________________________________
+
+      rep_30             Political activity - 12 months - Expressed views - News/politician
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/127
+
+      ________________________________________________________________________
+
+      rep_35             Political activity - 12 months - Expressed views - Internet
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/128
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 36
+
+
+      rep_40             Political activity - 12 months - Signed paper petition
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/129
+
+      ________________________________________________________________________
+
+      rep_45             Political activity - 12 months - Signed Internet petition
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/130
+
+      ________________________________________________________________________
+
+      rep_50             Political activity - 12 months - Product choice ethical reasons
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/131
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 37
+
+
+      rep_60             Political activity - 12 months - Attended public meeting
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/132
+
+      ________________________________________________________________________
+
+      rep_70             Political activity - 12 months - Spoke at public meeting
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/133
+
+      ________________________________________________________________________
+
+      rep_80             Political activity - 12 months - Participated in a demonstration
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/134
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 38
+
+
+      rep_85             Political activity - 12 months - Visible sign of support
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/135
+
+      ________________________________________________________________________
+
+      mcr_300c           Number of hours per week spent watching television
+
+           VALUE  LABEL
+              50  50 hours or more
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/136-137
+
+      ________________________________________________________________________
+
+      mcr_310            Frequency of following news and current affairs
+
+           VALUE  LABEL
+               1  Daily
+               2  Several times each week
+               3  Several times each month
+               4  Rarely
+               5  Never
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/138
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 39
+
+
+      mcr_320a           Media to follow news and current affairs - Newspapers (print copy)
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/139
+
+      ________________________________________________________________________
+
+      mcr_320b           Media to follow news and current affairs - Magazines (print copy)
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/140
+
+      ________________________________________________________________________
+
+      mcr_320c           Media to follow news and current affairs - Television
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/141
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 40
+
+
+      mcr_320d           Media to follow news and current affairs - Radio
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/142
+
+      ________________________________________________________________________
+
+      mcr_320e           Media to follow news and current affairs - Internet
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/143
+
+      ________________________________________________________________________
+
+      mcr_320f           Media to follow news and current affairs - None
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/144
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 41
+
+
+      mcr_320g           Media to follow news and current affairs - Other
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/145
+
+      ________________________________________________________________________
+
+      mcr_325c           Number of hours per week following news/current affairs - Television
+
+           VALUE  LABEL
+              50  50 or more
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/146-147
+
+      ________________________________________________________________________
+
+      mcr_330c           News and current affairs - Hours per week -  Radio
+
+           VALUE  LABEL
+              50  50 or more
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/148-149
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 42
+
+
+      mcr_335c           News and current affairs - Hours per week - Internet
+
+           VALUE  LABEL
+              50  50 or more
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/150-151
+
+      ________________________________________________________________________
+
+      mcr_340            News and current affairs -   Typical week - Newspapers
+
+           VALUE  LABEL
+               1  Daily
+               2  3 to 5 times each week
+               3  Once or twice each week
+               4  Rarely
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/152
+
+      ________________________________________________________________________
+
+      mcr_350            News and current affairs -   Typical month - Magazines
+
+           VALUE  LABEL
+               1  Every week
+               2  3 to 5 times each month (but not every week)
+               3  Once or twice each month
+               4  Rarely
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/153
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 43
+
+
+      mcr_360            Use of ethnic medias to follow news - Typical week
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/154
+
+      ________________________________________________________________________
+
+      mcr_365a           Ethnic media use - Newspapers (print copy)
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/155
+
+      ________________________________________________________________________
+
+      mcr_365b           Ethnic media use - Magazines (print copy)
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/156
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 44
+
+
+      mcr_365c           Ethnic media use - Television
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/157
+
+      ________________________________________________________________________
+
+      mcr_365d           Ethnic media use - Radio
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/158
+
+      ________________________________________________________________________
+
+      mcr_365e           Ethnic media use - Internet
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/159
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 45
+
+
+      mcr_365f           Ethnic media use - Other specify
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/160
+
+      ________________________________________________________________________
+
+      kch_10             Knowledge of Canadian history
+
+           VALUE  LABEL
+               1  Excellent
+               2  Very good
+               3  Good
+               4  Fair
+               5  Poor
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/161
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 46
+
+
+      prd_10             Pride - Being Canadian
+
+           VALUE  LABEL
+               1  Very proud
+               2  Proud
+               3  Somewhat proud
+               4  Not very proud
+               5  Not proud at all
+               6  No opinion
+               7  Not a Canadian citizen
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/162-163
+
+      ________________________________________________________________________
+
+      prd_20             Pride - Canada - Democracy
+
+           VALUE  LABEL
+               1  Very proud
+               2  Proud
+               3  Somewhat proud
+               4  Not very proud
+               5  Not proud at all
+               6  No opinion
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/164-165
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 47
+
+
+      prd_25             Pride - Canada - Global political influence
+
+           VALUE  LABEL
+               1  Very proud
+               2  Proud
+               3  Somewhat proud
+               4  Not very proud
+               5  Not proud at all
+               6  No opinion
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/166-167
+
+      ________________________________________________________________________
+
+      prd_30             Pride - Canada - Economic achievements
+
+           VALUE  LABEL
+               1  Very proud
+               2  Proud
+               3  Somewhat proud
+               4  Not very proud
+               5  Not proud at all
+               6  No opinion
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/168-169
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 48
+
+
+      prd_35             Pride - Canada - Health care system
+
+           VALUE  LABEL
+               1  Very proud
+               2  Proud
+               3  Somewhat proud
+               4  Not very proud
+               5  Not proud at all
+               6  No opinion
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/170-171
+
+      ________________________________________________________________________
+
+      prd_37             Pride - Canada - Social security system
+
+           VALUE  LABEL
+               1  Very proud
+               2  Proud
+               3  Somewhat proud
+               4  Not very proud
+               5  Not proud at all
+               6  No opinion
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/172-173
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 49
+
+
+      prd_40             Pride - Canada -  Scientific and technological achievements
+
+           VALUE  LABEL
+               1  Very proud
+               2  Proud
+               3  Somewhat proud
+               4  Not very proud
+               5  Not proud at all
+               6  No opinion
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/174-175
+
+      ________________________________________________________________________
+
+      prd_45             Pride - Canada - Achievements in sports
+
+           VALUE  LABEL
+               1  Very proud
+               2  Proud
+               3  Somewhat proud
+               4  Not very proud
+               5  Not proud at all
+               6  No opinion
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/176-177
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 50
+
+
+      prd_50             Pride - Canada - Arts and literature
+
+           VALUE  LABEL
+               1  Very proud
+               2  Proud
+               3  Somewhat proud
+               4  Not very proud
+               5  Not proud at all
+               6  No opinion
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/178-179
+
+      ________________________________________________________________________
+
+      prd_55             Pride - Canada - Armed forces
+
+           VALUE  LABEL
+               1  Very proud
+               2  Proud
+               3  Somewhat proud
+               4  Not very proud
+               5  Not proud at all
+               6  No opinion
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/180-181
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 51
+
+
+      prd_60             Pride - Canada - History
+
+           VALUE  LABEL
+               1  Very proud
+               2  Proud
+               3  Somewhat proud
+               4  Not very proud
+               5  Not proud at all
+               6  No opinion
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/182-183
+
+      ________________________________________________________________________
+
+      prd_65             Pride - Canada - Treatment of all groups in society
+
+           VALUE  LABEL
+               1  Very proud
+               2  Proud
+               3  Somewhat proud
+               4  Not very proud
+               5  Not proud at all
+               6  No opinion
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/184-185
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 52
+
+
+      prd_70             Pride - Canada - Constitution
+
+           VALUE  LABEL
+               1  Very proud
+               2  Proud
+               3  Somewhat proud
+               4  Not very proud
+               5  Not proud at all
+               6  No opinion
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/186-187
+
+      ________________________________________________________________________
+
+      ans_10             Importance of national symbols - Canadian flag
+
+           VALUE  LABEL
+               1  Very important
+               2  Somewhat important
+               3  Not very important
+               4  Not at all important
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/188
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 53
+
+
+      ans_30             Importance of national symbols - Charter of Rights and Freedoms
+
+           VALUE  LABEL
+               1  Very important
+               2  Somewhat important
+               3  Not very important
+               4  Not at all important
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/189
+
+      ________________________________________________________________________
+
+      ans_50             Importance of national symbols - National anthem
+
+           VALUE  LABEL
+               1  Very important
+               2  Somewhat important
+               3  Not very important
+               4  Not at all important
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/190
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 54
+
+
+      ans_60             Importance of national symbols - RCMP
+
+           VALUE  LABEL
+               1  Very important
+               2  Somewhat important
+               3  Not very important
+               4  Not at all important
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/191
+
+      ________________________________________________________________________
+
+      ans_80             Importance of national symbols - Hockey
+
+           VALUE  LABEL
+               1  Very important
+               2  Somewhat important
+               3  Not very important
+               4  Not at all important
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/192
+
+      ________________________________________________________________________
+
+      ans_90a            National symbols - People and identities
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/193
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 55
+
+
+      ans_90b            National symbols - Beaver
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/194
+
+      ________________________________________________________________________
+
+      ans_90c            National symbols - Nature, geography, outdoors
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/195
+
+      ________________________________________________________________________
+
+      ans_90d            National symbols - Maple leaf
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/196
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 56
+
+
+      ans_90e            National symbols - Wildlife (excluding beavers)
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/197
+
+      ________________________________________________________________________
+
+      ans_90f            National symbols - Canadian heritage and history
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/198
+
+      ________________________________________________________________________
+
+      ans_90g            National symbols - Sports and leisure
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/199
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 57
+
+
+      ans_90h            National symbols - Multiculturalism
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/200
+
+      ________________________________________________________________________
+
+      ans_90i            National symbols - Food and beverage
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/201
+
+      ________________________________________________________________________
+
+      ans_90j            National symbols - Mountains
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/202
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 58
+
+
+      ans_90k            National symbols - Physical places/locations in Canada
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/203
+
+      ________________________________________________________________________
+
+      ans_90l            National symbols - Business, technology and economy
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/204
+
+      ________________________________________________________________________
+
+      ans_90m            National symbols - Water
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/205
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 59
+
+
+      ans_90n            National symbols - Winter
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/206
+
+      ________________________________________________________________________
+
+      ans_90o            National symbols - Official Canadian symbols
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/207
+
+      ________________________________________________________________________
+
+      ans_90p            National symbols - Politics, politicians, programs,  institutions
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/208
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 60
+
+
+      ans_90q            National symbols - Vastness/size of Canada
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/209
+
+      ________________________________________________________________________
+
+      ans_90r            National symbols - Aboriginal peoples and culture
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/210
+
+      ________________________________________________________________________
+
+      ans_90s            National symbols - Wars, peacekeeping and veterans
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/211
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 61
+
+
+      ans_90t            National symbols - Currency
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/212
+
+      ________________________________________________________________________
+
+      ans_90u            National symbols - Other
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/213
+
+      ________________________________________________________________________
+
+      svr_10             Canadian shared values - Human rights
+
+           VALUE  LABEL
+               1  To a great extent
+               2  To a moderate extent
+               3  To a small extent
+               4  Not at all
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/214
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 62
+
+
+      svr_25             Canadian shared values - Respect for the law
+
+           VALUE  LABEL
+               1  To a great extent
+               2  To a moderate extent
+               3  To a small extent
+               4  Not at all
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/215
+
+      ________________________________________________________________________
+
+      svr_30             Canadian shared values - Gender equality
+
+           VALUE  LABEL
+               1  To a great extent
+               2  To a moderate extent
+               3  To a small extent
+               4  Not at all
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/216
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 63
+
+
+      svr_35             Canadian shared values - Official languages
+
+           VALUE  LABEL
+               1  To a great extent
+               2  To a moderate extent
+               3  To a small extent
+               4  Not at all
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/217
+
+      ________________________________________________________________________
+
+      svr_40             Canadian shared values - Ethnic and cultural diversity
+
+           VALUE  LABEL
+               1  To a great extent
+               2  To a moderate extent
+               3  To a small extent
+               4  Not at all
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/218
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 64
+
+
+      svr_45             Canadian shared values - Respect for Aboriginal culture
+
+           VALUE  LABEL
+               1  To a great extent
+               2  To a moderate extent
+               3  To a small extent
+               4  Not at all
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/219
+
+      ________________________________________________________________________
+
+      ethpr7             Ethnic background of the respondent's partner (7 categories)
+
+           VALUE  LABEL
+               1  Canadian only
+               2  British Isles origins only
+               3  French only
+               4  Other European only
+               5  Canadian and other
+               6  British Isles & other/French & other/British & French &other
+               7  Other
+              95  No spouse/partner in the household
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/220-221
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 65
+
+
+      vismin             Visible minority status of the respondent.
+
+           VALUE  LABEL
+               1  Visible minority
+               2  Not a visible minority
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/222
+
+      ________________________________________________________________________
+
+      visminpr           Visible minority status - Respondent's spouse/partner
+
+           VALUE  LABEL
+               1  Visible minority
+               2  Not a visible minority
+               5  No spouse/partner in the household
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/223
+
+      ________________________________________________________________________
+
+      sbl_100            Sense of belonging - Local community
+
+           VALUE  LABEL
+               1  Very strong
+               2  Somewhat strong
+               3  Somewhat weak
+               4  Very weak
+               5  No opinion
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/224
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 66
+
+
+      sbl_200            Sense of belonging - Town or city
+
+           VALUE  LABEL
+               1  Very strong
+               2  Somewhat strong
+               3  Somewhat weak
+               4  Very weak
+               5  No opinion
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/225
+
+      ________________________________________________________________________
+
+      sbl_300            Sense of belonging - Province
+
+           VALUE  LABEL
+               1  Very strong
+               2  Somewhat strong
+               3  Somewhat weak
+               4  Very weak
+               5  No opinion
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/226
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 67
+
+
+      sbl_500            Sense of belonging - Canada
+
+           VALUE  LABEL
+               1  Very strong
+               2  Somewhat strong
+               3  Somewhat weak
+               4  Very weak
+               5  No opinion
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/227
+
+      ________________________________________________________________________
+
+      sbl_700            Sense of belonging - Country of origin
+
+           VALUE  LABEL
+               1  Very strong
+               2  Somewhat strong
+               3  Somewhat weak
+               4  Very weak
+               5  No opinion
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/228
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 68
+
+
+      sbl_800            Sense of belonging - People with same ethnic/cultural background
+
+           VALUE  LABEL
+               1  Very strong
+               2  Somewhat strong
+               3  Somewhat weak
+               4  Very weak
+               5  No opinion
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/229
+
+      ________________________________________________________________________
+
+      sbl_820            Sense of belonging - People with same first language
+
+           VALUE  LABEL
+               1  Very strong
+               2  Somewhat strong
+               3  Somewhat weak
+               4  Very weak
+               5  No opinion
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/230
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 69
+
+
+      pct_10             Trust people in general
+
+           VALUE  LABEL
+               1  Most people can be trusted
+               2  You cannot be too careful in dealing with people
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/231
+
+      ________________________________________________________________________
+
+      tip_10             Trust - Members of family
+
+           VALUE  LABEL
+               1  Cannot be trusted at all
+               2  ...
+               3  ...
+               4  ...
+               5  Can be trusted a lot
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/232
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 70
+
+
+      tip_15             Trust - People in neighbourhood
+
+           VALUE  LABEL
+               1  Cannot be trusted at all
+               2  ...
+               3  ...
+               4  ...
+               5  Can be trusted a lot
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/233
+
+      ________________________________________________________________________
+
+      tip_20             Trust - People from work or school
+
+           VALUE  LABEL
+               1  Cannot be trusted at all
+               2  ...
+               3  ...
+               4  ...
+               5  Can be trusted a lot
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/234
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 71
+
+
+      tip_22             Trust - People who speak a different language
+
+           VALUE  LABEL
+               1  Cannot be trusted at all
+               2  ...
+               3  ...
+               4  ...
+               5  Can be trusted a lot
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/235
+
+      ________________________________________________________________________
+
+      tip_25             Trust - Strangers
+
+           VALUE  LABEL
+               1  Cannot be trusted at all
+               2  ...
+               3  ...
+               4  ...
+               5  Can be trusted a lot
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/236
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 72
+
+
+      tnp_10             Trust - Neighbourhood people
+
+           VALUE  LABEL
+               1  Most of the people in your neighbourhood
+               2  Many of the people (in your neighbourhood)
+               3  A few of the people (in your neighbourhood)
+               4  Nobody (in your neighbourhood)
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/237
+
+      ________________________________________________________________________
+
+      rlm_10             Perceived likelihood - Return of lost wallet - By neighbour
+
+           VALUE  LABEL
+               1  Very likely
+               2  Somewhat likely
+               3  Not at all likely
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/238
+
+      ________________________________________________________________________
+
+      rlm_15             Perceived likelihood - Return of lost wallet - By police officer
+
+           VALUE  LABEL
+               1  Very likely
+               2  Somewhat likely
+               3  Not at all likely
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/239
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 73
+
+
+      rlm_20             Perceived likelihood - Return of lost wallet - By a stranger
+
+           VALUE  LABEL
+               1  Very likely
+               2  Somewhat likely
+               3  Not at all likely
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/240
+
+      ________________________________________________________________________
+
+      dis_10             Experienced discrimination - Sex
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/241
+
+      ________________________________________________________________________
+
+      dis_15             Experienced discrimination - Ethnicity or culture
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/242
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 74
+
+
+      dis_20             Experienced discrimination - Race or skin colour
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/243
+
+      ________________________________________________________________________
+
+      dis_25             Experienced discrimination - Physical appearance
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/244
+
+      ________________________________________________________________________
+
+      dis_30             Experienced discrimination - Religion
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/245
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 75
+
+
+      dis_35             Experienced discrimination - Sexual orientation
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/246
+
+      ________________________________________________________________________
+
+      dis_40             Experienced discrimination - Age
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/247
+
+      ________________________________________________________________________
+
+      dis_45             Experienced discrimination - Physical or mental disability
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/248
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 76
+
+
+      dis_50             Experienced discrimination - Language
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/249
+
+      ________________________________________________________________________
+
+      dis_55             Experienced discrimination - Other
+
+           VALUE  LABEL
+               1  Yes - Specify
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/250
+
+      ________________________________________________________________________
+
+      discrim            Victim of discrimination - 5 years
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/251
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 77
+
+
+      dts_20             Experienced discrimination - Bank, store, restaurant
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/252
+
+      ________________________________________________________________________
+
+      dts_25             Experienced discrimination - Work environment
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/253
+
+      ________________________________________________________________________
+
+      dts_30             Experienced discrimination - Police
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/254
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 78
+
+
+      dts_35             Experienced discrimination - Courts
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/255
+
+      ________________________________________________________________________
+
+      dts_60             Experienced discrimination - Canadian border
+
+           VALUE  LABEL
+               1  Yes
+               2  No
+               3  Have not crossed the border in past 5 years
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/256
+
+      ________________________________________________________________________
+
+      dts_65             Experienced discrimination -  Other
+
+           VALUE  LABEL
+               1  Yes - Specify
+               2  No
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/257
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 79
+
+
+      cii_10             Confidence - Police
+
+           VALUE  LABEL
+               1  No confidence at all
+               2  ...
+               3  ...
+               4  ...
+               5  A great deal of confidence
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/258
+
+      ________________________________________________________________________
+
+      cii_15             Confidence - Justice system and courts
+
+           VALUE  LABEL
+               1  No confidence at all
+               2  ...
+               3  ...
+               4  ...
+               5  A great deal of confidence
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/259
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 80
+
+
+      cii_30             Confidence - School system
+
+           VALUE  LABEL
+               1  No confidence at all
+               2  ...
+               3  ...
+               4  ...
+               5  A great deal of confidence
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/260
+
+      ________________________________________________________________________
+
+      cii_40             Confidence - Federal Parliament
+
+           VALUE  LABEL
+               1  No confidence at all
+               2  ...
+               3  ...
+               4  ...
+               5  A great deal of confidence
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/261
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 81
+
+
+      cii_45             Confidence - Banks
+
+           VALUE  LABEL
+               1  No confidence at all
+               2  ...
+               3  ...
+               4  ...
+               5  A great deal of confidence
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/262
+
+      ________________________________________________________________________
+
+      cii_50             Confidence - Major corporations
+
+           VALUE  LABEL
+               1  No confidence at all
+               2  ...
+               3  ...
+               4  ...
+               5  A great deal of confidence
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/263
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 82
+
+
+      cii_55             Confidence - Local merchants and business people
+
+           VALUE  LABEL
+               1  No confidence at all
+               2  ...
+               3  ...
+               4  ...
+               5  A great deal of confidence
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/264
+
+      ________________________________________________________________________
+
+      cii_60             Confidence - Canadian media
+
+           VALUE  LABEL
+               1  No confidence at all
+               2  ...
+               3  ...
+               4  ...
+               5  A great deal of confidence
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/265
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 83
+
+
+      srh_110            Self-rated general health
+
+           VALUE  LABEL
+               1  Excellent
+               2  Very good
+               3  Good
+               4  Fair
+               5  Poor
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/266
+
+      ________________________________________________________________________
+
+      srh_115            Self-rated mental health
+
+           VALUE  LABEL
+               1  Excellent
+               2  Very good
+               3  Good
+               4  Fair
+               5  Poor
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/267
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 84
+
+
+      slm_01             Subjective well-being
+
+           VALUE  LABEL
+               0  Very dissatisfied
+              10  Very satisfied
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/268-269
+
+      ________________________________________________________________________
+
+      lanch              First childhood language of the respondent
+
+           VALUE  LABEL
+               1  English only
+               2  French only
+               3  Other language only
+               4  English and French equally
+               5  English and other equally
+               6  French and other equally
+               7  English, French and other equally
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/270-271
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 85
+
+
+      lanhsdc            Respondent's household language.
+
+           VALUE  LABEL
+               1  English only
+               2  French only
+               3  Other languages
+               4  Multiple languages
+               6  Valid skip
+               7  Don't know
+               8  Refusal
+               9  Not stated
+
+           Data type: numeric
+           Missing-data codes: 6-9
+           Record/column: 1/272
+
+      ________________________________________________________________________
+
+      incm               Annual personal income of the respondent - 2012
+
+           VALUE  LABEL
+               1  No income
+               2  Less than $ 5,000
+               3  $ 5,000 to $ 9,999
+               4  $ 10,000 to $ 14,999
+               5  $ 15,000 to $ 19,999
+               6  $ 20,000 to $29,999
+               7  $ 30,000 to $ 39,999
+               8  $ 40,000 to $ 49,999
+               9  $ 50,000 to $ 59,999
+              10  $ 60,000 to $ 79,999
+              11  $ 80,000 to $ 99,999
+              12  $ 100,000 or more
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/273-274
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
+
+
+
+      General Social Survey, Cycle 27: Social Identity V2              Page 86
+
+
+      incmhsd            Total household income - 2012
+
+           VALUE  LABEL
+               1  No income or loss
+               2  Less than $ 5,000
+               3  $ 5,000 to $ 9,999
+               4  $ 10,000 to $ 14,999
+               5  $ 15,000 to $ 19,999
+               6  $ 20,000 to $ 29,999
+               7  $ 30,000 to $ 39,999
+               8  $ 40,000 to $ 49,999
+               9  $ 50,000 to $ 59,999
+              10  $ 60,000 to $ 79,999
+              11  $ 80,000 to $ 99,999
+              12  $ 100,00 to $ 149,999
+              13  $ 150,000 or more
+              96  Valid skip
+              97  Don't know
+              98  Refusal
+              99  Not stated
+
+           Data type: numeric
+           Missing-data codes: 96-99
+           Record/columns: 1/275-276
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   April 3, 2022
