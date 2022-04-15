@@ -1,12 +1,12 @@
 ---
-title: "My title"
+title: "Can we predict voting trends based on individual characteristics?"
 subtitle: "My subtitle if needed"
 author: 
-  - First author
-  - Another author
-thanks: "Code and data are available at: LINK."
+  - Mahak Jain
+thanks: "Code and data are available at: https://github.com/MahakJain74/finalpaper_placeholdername.git."
 date: "`r format(Sys.time(), '%d %B %Y')`"
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+abstract: "Understanding the demographics of voting is essential for every country to include policies for a larger voter turnout. This paper understands the relationship between the characteristics of an individual such as age, gender, social media usage, internet usage, political engagement, trust in society, and discrimination to predict voting participation and to understand the relationship between them. These findings help implement policies to ensure better voter participation and also understand trends in voter turnout. Keywords: voting, internet, social media, volunteer, gender, toronto residents"
+
 output:
   bookdown::pdf_document2
 toc: FALSE
@@ -15,62 +15,28 @@ bibliography: references.bib
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-
+#must be filled out: title, author, date, keywords, abstract, and introduction.
 library(tidyverse)
 library(palmerpenguins)
 ```
 
 # Introduction
+Internet consumption is a worldwide phenomenon. Globally, the number of Internet users increased from only 413 million in 2000 to over 3.4 billion in 2016 alone. The usage and accessibility of internet consumption depend on several factors, differing through socioeconomic factors and demographically. Internet usage has become a prominent part of everyone's daily life, from an accessory to a necessity. In 2019, Canada had an estimated 34.56 million internet users. Over 96.5% of Canadians have access to the internet in their households.
 
-You can and should cross-reference sections and sub-sections. For instance, Section \@ref(data). R Markdown automatically makes the sections lower case and adds a dash to spaces to generate labels, for instance, Section \@ref(first-discussion-point). 
+There exists a long tradition of research documents and demographic and psychological determinants of political participation, there exists evidence to suggest that changes in communication technology may play an important role in influencing electoral behavior @mcneal. Web-based and theoretical studies often claim that Internet use can mobilize political participation, while survey-based studies generally conclude that Internet use will normalize political participation @hirzalla.
+
+The Internet may enhance voter information about candidates and elections, and in turn, stimulate increased participation @mcneal. Though many European jurisdictions have established well-developed online voting models, Canada is quickly emerging as an important research case. To date, there have been more instances of remote Internet voting in local Canadian elections than in any other country. There have been more than two million remote Internet voting opportunities in over 90 local Canadian elections. This paper explores internet usage and political engagement with voter participation and turnout in federal, municipal, and provincial voting.
 
 
 
 # Data
 
-Our data is of penguins (Figure \@ref(fig:bills)).
-
-```{r bills, fig.cap="Bills of penguins", echo = FALSE}
-ggplot(penguins, aes(x = island, fill = species)) +
-  geom_bar(alpha = 0.8) +
-  scale_fill_manual(values = c("darkorange","purple","cyan4"),
-                    guide = FALSE) +
-  theme_minimal() +
-  facet_wrap(~species, ncol = 1) +
-  coord_flip()
-```
-
-Talk more about it.
-
-Also bills and their average (Figure \@ref(fig:billssssss)). (Notice how you can change the height and width so they don't take the whole page?)
-
-```{r billssssss, fig.cap="More bills of penguins", echo = FALSE, fig.width=8, fig.height=4}
-
-# This needs to be about the random data tha tI sasmpled?
-ggplot(penguins, aes(x = island, fill = species)) +
-  geom_bar(alpha = 0.8) +
-  scale_fill_manual(values = c("darkorange","purple","cyan4"),
-                    guide = FALSE) +
-  theme_minimal() +
-  facet_wrap(~species, ncol = 1) +
-  coord_flip()
-```
-
-Talk way more about it. 
 
 
 
 # Model
 
-\begin{equation}
-Pr(\theta | y) = \frac{Pr(y | \theta) Pr(\theta)}{Pr(y)}  (\#eq:bayes)
-\end{equation}
 
-Equation \@ref(eq:bayes) seems useful, eh?
-
-Here's a dumb example of how to use some references: In paper we run our analysis in `R` [@citeR]. We also use the `tidyverse` which was written by @thereferencecanbewhatever If we were interested in baseball data then @citeLahman could be useful. 
-
-We can use maths by including latex between dollar signs, for instance $\theta$.
 
 
 # Results
